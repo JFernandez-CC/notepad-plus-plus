@@ -1,7 +1,7 @@
 @ECHO OFF
 :: Perform the pre-steps to build boost and set the boost path for the build file
 SETLOCAL
-SET BOOSTPATH=
+SET BOOSTPATH=C:\Users\Justin\Documents
 SET MSVCTOOLSET=
 SET TOOLSETCOMMAND=
 SET BOOSTVERSION=
@@ -250,5 +250,7 @@ ECHO  - Download a fresh copy from www.boost.org and extract it to a directory,
 ECHO    and run the batch again with the name of that directory
 
 :EOF
+
+PAUSE
 
 ENDLOCAL
